@@ -1,0 +1,21 @@
+<div class="row m-3 pt-3">
+    <div class="col-7">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">Nome</th>
+                    <th scope="col">Descrição</th>
+                    <th scope="col">Preço</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let produto of produtos">
+                    <td scope="col">{{produto.nome}}</td>
+                    <td scope="col">{{produto.descricao}}</td>
+                    <td scope="col">R$ {{produto.preco}}</td>
+                </tr>
+            </tbody>
+
+        </table>
+    </div>
+</div>

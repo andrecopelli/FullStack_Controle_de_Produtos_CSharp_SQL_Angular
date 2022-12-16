@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "CadastroDeProdutosSolution.Infra.Data/1.0.0": {
+        "dependencies": {
+          "CadastroDeProdutosSolution.Domain": "1.0.0"
+        },
+        "runtime": {
+          "CadastroDeProdutosSolution.Infra.Data.dll": {}
+        }
+      },
+      "CadastroDeProdutosSolution.Domain/1.0.0": {
+        "runtime": {
+          "CadastroDeProdutosSolution.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CadastroDeProdutosSolution.Infra.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CadastroDeProdutosSolution.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
